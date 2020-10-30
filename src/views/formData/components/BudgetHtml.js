@@ -23,7 +23,10 @@ import {
   personal,
   savings,
   savingsG,
-  totalExpenses
+  totalExpenses,
+  debt,
+  debtO,
+  debtP
 } from "../../formData/calculation";
 
 const Under = styled(Col)`
