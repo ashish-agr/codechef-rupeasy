@@ -1,23 +1,53 @@
 {
-  "name": "pure-react",
+  "name": "ylc-budget",
+  "homepage": "http://ylcbudget.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@nivo/pie": "^0.42.1",
+    "@reach/router": "^1.1.1",
+    "@react-pdf/node": "^0.7.6",
+    "@react-pdf/renderer": "^1.0.0-alpha.14",
+    "@reactions/component": "^2.0.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "date-fns": "^1.29.0",
+    "emotion": "^9.2.6",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "facepaint": "^1.2.1",
+    "formik": "^1.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-emotion": "^9.2.5",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4",
+    "react-test-renderer": "^16.5.2",
+    "react-to-print": "^2.0.0-alpha-3",
+    "reactstrap": "^6.2.0",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
+    "redux-logic": "^0.15.4",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^5",
+    "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "enzyme-to-json": "^3.3.4",
+    "jest-emotion": "^9.2.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom --watch",
+    "test:coverage": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
